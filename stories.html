@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shared Stories | More Than the Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a class="brand" href="index.html">♡ MORE THAN THE GAME</a>
+  <nav class="nav">
+    <a href="index.html">You're Not Alone</a>
+    <a href="help.html">Find Support</a>
+    <a href="stories.html">Shared Stories</a>
+  </nav>
+</header>
+
+<section class="page-hero stories-hero">
+  <p class="eyebrow">Real feelings. Shared encouragement.</p>
+  <h1>Someone else<br><em>gets it, too.</em></h1>
+  <p class="lead">
+    Reading another athlete's experience can remind us
+    that hard moments do not make us weak.
+    Asking for support is okay.
+  </p>
+</section>
+
+<section class="section">
+  <p class="eyebrow">Community notes</p>
+  <h2>Words Athletes May Need to Hear</h2>
+
+  <div class="story-list" id="storyList">
+
+    <article class="story-card">
+      <span class="story-tag">A reminder</span>
+      <p>
+        "I used to think I had to be the dependable one
+        all the time. I'm learning that I can have hard
+        days and still be a strong teammate."
+      </p>
+      <small>Shared anonymously · Sample story</small>
+      <div class="encouragement">
+        You are allowed to be supported, too. ♡
+      </div>
+    </article>
+
+    <article class="story-card">
+      <span class="story-tag">Finding balance</span>
+      <p>
+        "Taking a step back helped me remember why I
+        started playing in the first place. My love for
+        the game can exist alongside taking care of myself."
+      </p>
+      <small>Shared anonymously · Sample story</small>
+      <div class="encouragement">
+        Your wellbeing matters more than a result. ♡
+      </div>
+    </article>
+
+    <article class="story-card">
+      <span class="story-tag">You belong</span>
+      <p>
+        "I thought I was the only one who felt nervous
+        about making mistakes. Talking to someone I
+        trusted made me feel less alone."
+      </p>
+      <small>Shared anonymously · Sample story</small>
+      <div class="encouragement">
+        You deserve people who listen without judgment. ♡
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<section class="submit-section section">
+  <div>
+    <p class="eyebrow">Your words could encourage someone</p>
+    <h2>Share a Message of Hope.</h2>
+    <p>
+      Write about a challenge, something that helped,
+      or a reminder you wish you had heard.
+    </p>
+
+    <div class="privacy-warning">
+      <strong>Privacy reminder:</strong>
+      Do not include your name, contact information,
+      school, team, or other identifying details.
+      This demo does not upload or publish stories.
+      Your message is only previewed on this page.
+    </div>
+  </div>
+
+  <form id="storyForm" class="story-form">
+    <label for="storyText">Your message</label>
+
+    <textarea
+      id="storyText"
+      rows="6"
+      maxlength="500"
+      placeholder="A reminder I want another athlete to hear is..."
+      required>
+    </textarea>
+
+    <div class="form-bottom">
+      <span id="charCount">0 / 500</span>
+      <button class="button" type="submit">
+        Preview My Message
+      </button>
+    </div>
+
+    <p id="formMessage" class="form-message" role="status"></p>
+  </form>
+</section>
+
+<footer>
+  MORE THAN THE GAME
+  <span>Your voice matters.</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
